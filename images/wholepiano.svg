@@ -1,0 +1,79 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+
+
+
+  @keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+
+  #notea {
+    animation: moveUpDown 2s ease-in-out infinite;
+  }
+  #noteb {
+    animation: moveUpDown 3s ease-in-out infinite;
+  }
+  #noted {
+    animation: moveUpDown 4s ease-in-out infinite;
+  }
+
+
+</style>
+
+
+
+
+
+<rect width="1440" height="1024" fill="#1E1E1E"/>
+<g id="pianoman">
+<g id="Desktop - 1">
+<rect width="1440" height="1024" fill="white"/>
+<g id="wholebody">
+<path id="Vector" d="M515.328 279.637C540.519 263.156 561.372 261.515 584.031 273.912C614.359 290.506 625.494 328.543 608.9 358.871C592.306 389.199 555.125 398.665 523.941 383.74C483.991 364.618 464.266 323.602 463.081 293.237V293.231C481.688 297.774 499.416 290.049 515.328 279.637ZM766.369 441.052V477.943H783.559C780.669 516.549 750.228 547.468 711.819 551.046C714.241 546.506 715.638 541.334 715.663 535.831C715.75 517.762 701.166 503.046 683.097 502.962L560.103 502.368C560.103 502.368 531.259 440.315 522.244 418.646C522.122 418.356 521.978 418.09 521.85 417.806C521.806 417.696 521.778 417.574 521.728 417.468C510.981 394.362 497.884 380.246 472.7 380.246C442.478 380.246 424.575 407.306 412.744 435.112C388.697 491.624 377.05 570.246 383.081 632.056C385.609 654.406 390.831 673.634 402.116 686.087H336L336.003 896.018H377.531V727.615H576.519L550.594 849.796C546.162 870.687 559.503 891.215 580.394 895.646C583.103 896.221 585.794 896.499 588.456 896.499C606.328 896.499 622.384 884.034 626.244 865.846L643.628 783.912L685.5 874.102C692.044 888.202 706.009 896.499 720.597 896.496C726.044 896.496 731.584 895.337 736.85 892.896C756.222 883.906 764.634 860.912 755.641 841.543L664.947 646.168C658.613 632.515 644.925 623.784 629.875 623.784H519.441L519.322 567.615L680.294 568.384V625.496H786.209V895.665H827.85V625.499H1122.96V441.052H766.369ZM953.825 154.202C898.394 105.624 827.85 109.052 827.85 109.052V416.421H901.562L906.934 209.324H920.916L926.222 416.421H1122.96C1122.96 416.421 1122.96 319.106 1122.96 252.121C1037.71 239.94 1001.23 195.752 953.825 154.202Z" fill="black"/>
+</g>
+<g id="musicnotea">
+<g id="notea">
+<path id="Vector_2" d="M673 463V429V395" stroke="black" stroke-width="5" stroke-linecap="round"/>
+<path id="Vector_3" d="M654 478C664.493 478 673 469.493 673 459C673 448.507 664.493 440 654 440C643.507 440 635 448.507 635 459C635 469.493 643.507 478 654 478Z" stroke="black" stroke-width="5"/>
+<path id="Vector_4" d="M695 418C685.887 418 673 410.878 673 395" stroke="black" stroke-width="5" stroke-linecap="round"/>
+</g>
+</g>
+<g id="musicnotec">
+<g id="noteb">
+<path id="Vector_5" d="M758 433V399V365" stroke="black" stroke-width="5" stroke-linecap="round"/>
+<path id="Vector_6" d="M739 448C749.493 448 758 439.493 758 429C758 418.507 749.493 410 739 410C728.507 410 720 418.507 720 429C720 439.493 728.507 448 739 448Z" stroke="black" stroke-width="5"/>
+<path id="Vector_7" d="M780 388C770.887 388 758 380.878 758 365" stroke="black" stroke-width="5" stroke-linecap="round"/>
+</g>
+</g>
+<g id="musicnoted">
+<g id="noted">
+<path id="Vector_8" d="M707 350V316V282" stroke="black" stroke-width="5" stroke-linecap="round"/>
+<path id="Vector_9" d="M688 365C698.493 365 707 356.493 707 346C707 335.507 698.493 327 688 327C677.507 327 669 335.507 669 346C669 356.493 677.507 365 688 365Z" stroke="black" stroke-width="5"/>
+<path id="Vector_10" d="M729 305C719.887 305 707 297.878 707 282" stroke="black" stroke-width="5" stroke-linecap="round"/>
+</g>
+</g>
+<g id="musicnoteb">
+<g id="noteb_2">
+<path id="Vector_11" d="M777 301V267V233" stroke="black" stroke-width="5" stroke-linecap="round"/>
+<path id="Vector_12" d="M758 316C768.493 316 777 307.493 777 297C777 286.507 768.493 278 758 278C747.507 278 739 286.507 739 297C739 307.493 747.507 316 758 316Z" stroke="black" stroke-width="5"/>
+<path id="Vector_13" d="M799 256C789.887 256 777 248.878 777 233" stroke="black" stroke-width="5" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>
