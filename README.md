@@ -1,3 +1,5 @@
+<img width="953" alt="image" src="https://github.com/kaflebruh/kafle-samaya-music-mixer-very-new02/assets/124806580/f94741c6-e552-4679-8c24-529b4e8e4c88">
+
 ## Music Mixer
 This is a Music Mixer a multimedia application for mixing music and different beats. 
 The application will allow users to mix and match audio clips through drag-and-drop functionality, trigger animations, and play a compiled audio track. 
