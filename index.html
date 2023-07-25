@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Vector Orchestra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <!--plau-pause-button-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--site icon-->
+    <link rel="shortcut icon" type="image/png" href="images/icon.jpeg" />
+    <!--site main font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@700&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1 class="hidden">Vector orchestra, making new beat.</h1>
+    <div id="container">
+      <section id="gameArena">
+        <h2 class="hidden">Game Areana</h2>
+        <div id="gameBox">
+
+
+          <div id="enviroCon">
+            <div id="enviroOverlayCon">
+              <div id="controls">
+                <div class="controlsBtn fa" id="pauseButton" tabindex="5"> &#xf04c;</div>
+                <div class="controlsBtn fa" id="rewindButton" tabindex="6">&#xf021;</div>
+              </div>
+              <!--FOR DROPING CHARACTER-->
+              <div id="enviro">
+                <div class="dropZone"></div>
+                <div class="dropZone"></div>
+                <div class="dropZone"></div>
+                <div class="dropZone"></div>
+              </div>
+              <div class="bgOverlay"></div>
+              
+              <div class="titleOverlay">
+                <h3 class="titleOverlayText pulsing">Make Your BEAT</h3>
+              </div>
+             
+            </div>
+          </div>
+
+
+
+
+        </div>
+        <nav id="vectors">
+          <h3 class="hidden"> Music Players: Vectors</h3>
+          <img class="image" id="img1" src="images/wholepiano.svg" alt="playing-piano" draggable>
+          <img class="image" id="img2" src="images/editabledj.svg" alt="dj-with-mic-and-headphone" draggable>
+          <img class="image" id="img3" src="images/femaleguitar.svg" alt="girl-holding-guitar" draggable>
+          <img class="image" id="img4" src="images/newsvgcello.svg" alt="playing-cello" draggable>
+        </nav>
+      </section>
+      
+      <audio class="songs">
+        <audio data-audioref="img1" id="sound1" class="audio" src="audio/piano.wav" loop></audio>
+        <audio data-audioref="img2" id="sound2" class="audio" src="audio/dj.mp3" loop></audio>
+        <audio data-audioref="img3" id="sound3" class="audio" src="audio/guitar.wav" loop></audio>
+        <audio data-audioref="img4" id="sound4" class="audio" src="audio/cello.wav" loop></audio>
+      </audio>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
